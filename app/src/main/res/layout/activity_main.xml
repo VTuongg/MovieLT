@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/aa">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="470dp"
+        android:background="@drawable/border_btn"
+        android:text="Xem chi tiết"
+        android:textSize="20dp"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="253dp"
+        android:layout_height="187dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Welcome to HUFLIT Movie"
+        android:textAlignment="center"
+        android:textColor="#BDA6A6"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtv2"
+        android:layout_width="247dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="570dp"
+        android:text="Đồ án lập trình di động"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+</RelativeLayout>
